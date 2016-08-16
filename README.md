@@ -45,6 +45,6 @@ aashish.tamsya@gmail.com
 
 ## License
 
-The content of [*Weather App*](https://github.com/aashishtamsya/Tap-Counter-ObjC) itself is licensed under the [Creative Commons Attribution 3.0 license](https://creativecommons.org/licenses/by/3.0/us/deed.en_US), and the underlying source code used to format and display that content is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php).
+The content of [*Tap Counter ObjC*](https://github.com/aashishtamsya/Tap-Counter-ObjC) itself is licensed under the [Creative Commons Attribution 3.0 license](https://creativecommons.org/licenses/by/3.0/us/deed.en_US), and the underlying source code used to format and display that content is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php).
 
 See the [LICENSE](LICENSE.md) file for more info.
