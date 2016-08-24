@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  ATTapCounter
 //
-//  Created by Felix ITs 01 on 25/07/16.
+//  Created by Aashish Tamsya on 25/07/16.
 //  Copyright © 2016 Aashish Tamsya. All rights reserved.
 //
 

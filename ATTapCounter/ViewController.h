@@ -2,7 +2,7 @@
 //  ViewController.h
 //  ATTapCounter
 //
-//  Created by Felix ITs 01 on 25/07/16.
+//  Created by Aashish Tamsya on 25/07/16.
 //  Copyright © 2016 Aashish Tamsya. All rights reserved.
 //
 
@@ -13,6 +13,11 @@
     NSString *myName;
     UILabel *label;
 }
+@property (weak, nonatomic) IBOutlet UIButton *tapButton;
+@property (weak, nonatomic) IBOutlet UIButton *resetButton;
+- (IBAction)resetAction:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *countLabel;
 
+- (IBAction)tapAction:(id)sender;
 @end
 
