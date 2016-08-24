@@ -9,8 +9,8 @@ An iOS Application written in Objective-C which uses button, label and views for
 
 # Contents
 
--	[Prerequisites](#prerequisites)
 -	[Requirements](#requirements)
+-	[Demo](#demo)
 -	[Installation](#installation)
 -	[Contribution](#contribution)
 -	[Credits](#credits)
@@ -20,6 +20,10 @@ An iOS Application written in Objective-C which uses button, label and views for
 ## Requirements
 * iOS 9.0+
 * Xcode 7.0
+
+## Demo
+
+![ATTapCounter DEMO](/Resources/ATTapCounter.gif)
 
 ## Installation
 
