@@ -16,7 +16,6 @@ class ViewController: UIViewController {
     
     @IBAction func tapAction(sender: AnyObject) {
         let button : UIButton = sender as! UIButton
-        print(button.titleLabel?.text)
         if let text = self.labelCount.text {
             let newText : String = increaseCounter(text)
             self.labelCount.text = newText
@@ -26,9 +25,6 @@ class ViewController: UIViewController {
     @IBAction func resetAction(sender: AnyObject) {
         labelCount.text = "0"
     }
-    
-
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -53,7 +49,5 @@ class ViewController: UIViewController {
         value = value + 1
         return String(value)
     }
-
-
 }
 
