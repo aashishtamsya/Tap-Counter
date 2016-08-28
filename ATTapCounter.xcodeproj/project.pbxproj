@@ -13,6 +13,11 @@
 		E15FCF7E1D462F9400328B79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15FCF7C1D462F9400328B79 /* Main.storyboard */; };
 		E15FCF801D462F9400328B79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15FCF7F1D462F9400328B79 /* Assets.xcassets */; };
 		E15FCF831D462F9400328B79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15FCF811D462F9400328B79 /* LaunchScreen.storyboard */; };
+		E1735A941D71620800835579 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1735A931D71620800835579 /* AppDelegate.swift */; };
+		E1735A961D71620800835579 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1735A951D71620800835579 /* ViewController.swift */; };
+		E1735AAA1D7162C400835579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1735AA71D7162C400835579 /* Assets.xcassets */; };
+		E1735AAB1D7162C400835579 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1735AA81D7162C400835579 /* LaunchScreen.storyboard */; };
+		E1735AAC1D7162C400835579 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1735AA91D7162C400835579 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +31,24 @@
 		E15FCF7F1D462F9400328B79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E15FCF821D462F9400328B79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E15FCF841D462F9400328B79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1735A911D71620800835579 /* ATTapCounter Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ATTapCounter Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1735A931D71620800835579 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1735A951D71620800835579 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1735A9F1D71620800835579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1735AA71D7162C400835579 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1735AA81D7162C400835579 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1735AA91D7162C400835579 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E15FCF6D1D462F9400328B79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1735A8E1D71620800835579 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				E15FCF721D462F9400328B79 /* ATTapCounter */,
+				E1735A921D71620800835579 /* ATTapCounter Swift */,
 				E15FCF711D462F9400328B79 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				E15FCF701D462F9400328B79 /* ATTapCounter.app */,
+				E1735A911D71620800835579 /* ATTapCounter Swift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +100,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E1735A921D71620800835579 /* ATTapCounter Swift */ = {
+			isa = PBXGroup;
+			children = (
+				E1735A931D71620800835579 /* AppDelegate.swift */,
+				E1735A951D71620800835579 /* ViewController.swift */,
+				E1735AA91D7162C400835579 /* Main.storyboard */,
+				E1735AA71D7162C400835579 /* Assets.xcassets */,
+				E1735AA81D7162C400835579 /* LaunchScreen.storyboard */,
+				E1735A9F1D71620800835579 /* Info.plist */,
+			);
+			path = "ATTapCounter Swift";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,16 +133,37 @@
 			productReference = E15FCF701D462F9400328B79 /* ATTapCounter.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E1735A901D71620800835579 /* ATTapCounter Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1735AA21D71620800835579 /* Build configuration list for PBXNativeTarget "ATTapCounter Swift" */;
+			buildPhases = (
+				E1735A8D1D71620800835579 /* Sources */,
+				E1735A8E1D71620800835579 /* Frameworks */,
+				E1735A8F1D71620800835579 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ATTapCounter Swift";
+			productName = "ATTapCounter Swift";
+			productReference = E1735A911D71620800835579 /* ATTapCounter Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		E15FCF681D462F9400328B79 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Aashish Tamsya";
 				TargetAttributes = {
 					E15FCF6F1D462F9400328B79 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					E1735A901D71620800835579 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
@@ -127,6 +182,7 @@
 			projectRoot = "";
 			targets = (
 				E15FCF6F1D462F9400328B79 /* ATTapCounter */,
+				E1735A901D71620800835579 /* ATTapCounter Swift */,
 			);
 		};
 /* End PBXProject section */
@@ -142,6 +198,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E1735A8F1D71620800835579 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1735AAA1D7162C400835579 /* Assets.xcassets in Resources */,
+				E1735AAB1D7162C400835579 /* LaunchScreen.storyboard in Resources */,
+				E1735AAC1D7162C400835579 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -152,6 +218,15 @@
 				E15FCF7B1D462F9400328B79 /* ViewController.m in Sources */,
 				E15FCF781D462F9400328B79 /* AppDelegate.m in Sources */,
 				E15FCF751D462F9400328B79 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1735A8D1D71620800835579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1735A961D71620800835579 /* ViewController.swift in Sources */,
+				E1735A941D71620800835579 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +358,29 @@
 			};
 			name = Release;
 		};
+		E1735AA01D71620800835579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ATTapCounter Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.felix.aashishtamsya.ATTapCounter-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1735AA11D71620800835579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ATTapCounter Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.felix.aashishtamsya.ATTapCounter-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -300,6 +398,15 @@
 			buildConfigurations = (
 				E15FCF881D462F9400328B79 /* Debug */,
 				E15FCF891D462F9400328B79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1735AA21D71620800835579 /* Build configuration list for PBXNativeTarget "ATTapCounter Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1735AA01D71620800835579 /* Debug */,
+				E1735AA11D71620800835579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
